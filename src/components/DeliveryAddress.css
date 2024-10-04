@@ -1,0 +1,86 @@
+.delivery-address-container {
+    width: 400px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #fff;
+    font-family: 'cairo' ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: end;
+
+  }
+  
+  .header {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    
+  }
+  
+  .bold-text {
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .address-box {
+    background-color: #f8f8f8;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .issue-box {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f1f1f1;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  
+  .issue-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .report-button {
+    background-color: #ff4c4c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .report-button:hover {
+    background-color: #e04343;
+  }
+  
+  .logo {
+    width: 170px; 
+    height: 150px;
+   
+  }
+  
+  
+   body[dir='rtl'] {
+    direction: rtl;
+    text-align: right;
+  }
+  
+  body[dir='ltr'] {
+    direction: ltr;
+    text-align: left;
+  }
+  
+ 

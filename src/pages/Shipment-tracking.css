@@ -1,7 +1,6 @@
-/* src/index.css or src/App.css */
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap');
 body, html {
-  font-family: 'Cairo';
+  font-family: 'Cairo', sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -9,6 +8,3 @@ body, html {
 h1, h2, h3, h4, h5, h6, p, a, button {
   font-family: 'Cairo', sans-serif;
 }
-
-
-
