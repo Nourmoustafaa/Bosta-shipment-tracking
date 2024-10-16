@@ -44,7 +44,7 @@ const Navbar = ({setTrackingDatatable ,setShipmentData,setEnglish,english}) => {
         </Popover.Header>
         <Popover.Body >
         <form className="search-form" onSubmit={handleSubmit}>
-            <div>
+            <div className="input-container">
                 <button type="submit" className="submit-button">
                 <SearchIcon sx={{ color: 'white' }}/>
                 </button>

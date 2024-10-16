@@ -14,7 +14,7 @@ const DataTable = ({columns,rows}) => {
         rows={rows}
         columns={columns}
         hideFooter
-        autoHeight 
+        autoHeight  
         rowHeight={70}
         pageSizeOptions={[5]}
         getRowId={(row) => row.timestamp}
